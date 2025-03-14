@@ -5,7 +5,7 @@ import plotly.express as px
 import ollama
 from utils.sentiment_analysis import analyze_sentiment
 
-NEWS_API_KEY = "ae09145d1cae4d0cbe0979918b809abf"
+NEWS_API_KEY = "YOUR_NEWS_API_KEY"  # Replace with your actual NewsAPI key
 
 def ask_ollama(prompt):
     """Use Ollama to generate AI-powered financial insights."""
